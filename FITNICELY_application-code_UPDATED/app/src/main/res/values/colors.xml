@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_pink">#B15668</color>
+    <color name="pinkAdmin">#EF9BA3</color>
+    <color name="black">#FF000000</color>
+    <color name="pink">#9F3F3F</color>
+    <color name="pastelPink">#F8C8DC</color>
+    <color name="buttonpink">#DA9494</color>
+    <color name="bukanWhite">#FFFFFF</color>
+    <color name="pinkUser">#F7CDD1</color>
+    <color name="button1">#B86B6B</color>
+    <color name="textview">#D18686</color>
+    <color name="textview2">#9E7E81</color>
+    <color name="button2">#CF9096</color>
+</resources>

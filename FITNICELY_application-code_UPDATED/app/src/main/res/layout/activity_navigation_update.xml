@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/new_orangepinkatas_gradient"
+        tools:context=".navigationUpdate" android:orientation="vertical">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SEARCH BAR UPDATE"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            android:textColor="@color/dark_pink"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+    />
+    <TextView android:layout_width="370dp" android:layout_height="5dp"
+              android:layout_marginLeft="20dp"
+              android:background="@drawable/line"
+    />
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="350dp"
+            android:layout_height="90dp" android:id="@+id/listNavigation" android:layout_gravity="center"
+            android:background="@drawable/user_edittext" android:backgroundTint="@color/textview2"
+            android:layout_marginTop="10dp" android:textAlignment="center" android:textColor="@color/black"
+            android:includeFontPadding="true" android:paddingTop="5dp"/>
+    <EditText android:layout_width="match_parent" android:layout_height="220dp"
+              android:drawablePadding="8dp"
+              android:padding="8dp"
+              android:hint="enter new keyword"
+              android:textColor="@color/buttonpink"
+              android:layout_marginTop="25dp" android:layout_marginLeft="25dp" android:layout_marginRight="25dp"
+              android:background="@drawable/admin_edittext" android:backgroundTint="@color/bukanWhite"
+              android:textAlignment="center" android:id="@+id/editKeyword"/>
+    <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/rdOption">
+        <RadioButton
+                android:text="From Exercise List"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content" android:id="@+id/rdExercise"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" android:layout_marginStart="70dp" android:layout_marginTop="10dp"
+                android:checked="true"/>
+        <RadioButton
+                android:text="From Navigation List"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content" android:id="@+id/rdNavigation"
+                android:textSize="20dp" android:textStyle="bold|italic"
+                android:layout_marginStart="70dp" android:layout_marginTop="0dp"
+        />
+    </RadioGroup>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+                android:text="ADD"
+                android:layout_width="170dp"
+                android:layout_height="80dp" android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp" android:textSize="25sp"
+                android:textStyle="bold|italic" android:textColor="@color/pinkAdmin"
+                android:backgroundTint="@color/bukanWhite" app:cornerRadius="80dp" android:id="@+id/btnAddKeyword"/>
+        <Button
+                android:text="DELETE"
+                android:layout_width="170dp"
+                android:layout_height="80dp" android:layout_marginLeft="10dp"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" android:textColor="@color/pink"
+                android:backgroundTint="@color/bukanWhite" app:cornerRadius="70dp" android:id="@+id/btnDeleteKeyword"/>
+    </LinearLayout>
+    <Button
+            android:text="DISPLAY LIST OF KEYWORDS"
+            android:layout_width="350dp"
+            android:layout_height="80dp" android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" android:textSize="20sp"
+            android:textStyle="bold|italic" android:textColor="@color/button1"
+            android:backgroundTint="@color/bukanWhite" app:cornerRadius="80dp" android:layout_gravity="center"
+            android:id="@+id/btnDisplay"/>
+</LinearLayout>
